@@ -1,5 +1,5 @@
 %define upstream_name    Dist-Zilla-Plugin-BumpVersionFromGit
-%define upstream_version 0.003
+%define upstream_version 0.005
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
