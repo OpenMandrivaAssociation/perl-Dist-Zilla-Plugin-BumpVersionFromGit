@@ -41,9 +41,6 @@ The plugin accepts the following options:
 
 %make
 
-%check
-%make test
-
 %install
 rm -rf %buildroot
 %makeinstall_std
