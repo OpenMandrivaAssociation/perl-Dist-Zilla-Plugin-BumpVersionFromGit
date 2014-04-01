@@ -1,11 +1,12 @@
 %define upstream_name    Dist-Zilla-Plugin-BumpVersionFromGit
-%define upstream_version 0.008
+%define upstream_version 0.009
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Provide a version number by bumping the last git release tag
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -43,4 +44,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes LICENSE META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 

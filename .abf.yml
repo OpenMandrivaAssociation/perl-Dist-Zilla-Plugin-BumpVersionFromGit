@@ -1,2 +1,4 @@
+removed_sources:
+  Dist-Zilla-Plugin-BumpVersionFromGit-0.008.tar.gz: 6688e9eb79a872c042231dbf5340ba4655505161
 sources:
-  "Dist-Zilla-Plugin-BumpVersionFromGit-0.008.tar.gz": 6688e9eb79a872c042231dbf5340ba4655505161
+  Dist-Zilla-Plugin-BumpVersionFromGit-0.009.tar.gz: b5e5628236cec636d3f347c0747eab1b93f65e29
